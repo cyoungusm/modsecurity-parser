@@ -17,12 +17,12 @@ import openpyxl
 
 
 DEBUG = False
-MAXEVENTS = 90000
+MAXEVENTS = 900000000
 SAVEOUTPUTJSON = True
 JSON_ONE_PER_LINE = False
 FILTER_INCLUDE = True
 FILTER_EXCLUDE = True
-LOG_TIMESTAMP_FORMAT = '%d/%b/%Y:%H:%M:%S %z'       # e.g. "01/Mar/2018:05:26:41 +0100"
+LOG_TIMESTAMP_FORMAT = '%d/%b/%Y:%H:%M:%S -%z'       # e.g. "01/Mar/2018:05:26:41 +0100"
 LOG_TIMESTAMP_FORMAT_SHORT = '%Y-%m-%d_%H:%M'
 
 
